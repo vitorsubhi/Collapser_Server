@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<globalevents>
+	<!-- Broadcasts -->
+	<!--<globalevent name="Info" interval="1000000" event="script" value="Broadcasts/Info.lua"/>
+	<globalevent name="texto" interval="3100" event="script" value="Effects/newtexto.lua"/>
+	-->
+	<!-- Maintenance -->
+	<!--<globalevent name="Save" time="05:55;17:55" event="script" value="Maintenance/Save.lua"/>
+	<globalevent name="Clean_and_Save" time="11:55;23:55" event="script" value="Maintenance/Clean_and_Save.lua"/>
+	<globalevent name="Record" type="record" event="script" value="Maintenance/Record.lua"/>
+	-->
+	<!-- Events -->
+		<!-- Lottery -->
+		<!--		<globalevent name="Lottery" interval="3600000" event="script" value="Events/Lottery.lua"/>
+-->
+		<!-- WoE -->
+		<!--			<globalevent name="WoE" interval="3000000" event="script" value="Events/WoE/WoE.lua"/>
+			<globalevent name="start_woe" interval="3000000" event="script" value="Events/WoE/Start_WoE.lua"/>
+			<globalevent name="Guardias" interval="1000" event="script" value="Events/WoE/Guardians.lua"/>
+		-->
+			<!-- Battlefield -->
+			<!--<globalevent name="GlobalBattle" interval="60000" event="script" value="Events/Battlefield/Battlefield_Events.lua"/>
+				<globalevent name="GlobalStart" type="start" event="script" value="Events/Battlefield/Battlefield_Start.lua"/>
+	--><!-- Others -->
+	<!--	<globalevent name="Server_Start" type="start" event="script" value="Start.lua"/>
+	-->
+	<!-- <globalevent name="timer_example" time="21:35" event="script" value="my_script.lua"/> -->
+</globalevents>

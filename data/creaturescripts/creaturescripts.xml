@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<creaturescripts>
+	<!-- Classic Creaturescripts -->
+		<event type="login" name="Player_Login" event="script" value="Login.lua"/>
+		<event type="logout" name="Player_Logout" event="script" value="Logout.lua"/>
+		<event type="joinchannel" name="Guild_Motd" event="script" value="Classic_Creaturescripts/Guild_Motd.lua"/>
+		<event type="receivemail" name="Mail" event="script" value="Classic_Creaturescripts/Mail.lua"/>
+		<event type="reportbug" name="Save_Report_Bug" script="Classic_Creaturescripts/Report_Bug.lua"/>
+		<event type="advance" name="Advance_Save" event="script" value="Classic_Creaturescripts/Save_on_Advance.lua"/>
+		<event type="think" name="Idle" event="script" value="Classic_Creaturescripts/Idle.lua"/>
+		<event type="think" name="Skull_Check" event="script" value="Classic_Creaturescripts/Skull_Check.lua"/>
+		<event type="death" name="Player_Death" event="script" value="Classic_Creaturescripts/Player_Death.lua"/>
+		<event type="login" name="Frag_Look_Register" event="script" value="Classic_Creaturescripts/Frag_Look.lua"/>
+		<event type="look" name="Frag_Look" event="script" value="Classic_Creaturescripts/Frag_Look.lua"/>
+		<event type="login" name="Connect_Animation" event="script" value="Classic_Creaturescripts/Connect_Animation.lua"/>
+		<!--<event type="death" name="Drop_Bless" event="script" value="Drop_Bless.lua"/>-->
+	
+	<!-- Custom Creaturescripts -->
+		<!--<event type="tradeaccept" name="Trade_Check" event="script" value="Trade_Check.lua"/>-->
+		<event type="tradeaccept" name="Points_Trade" event="script" value="Custom_Creaturescripts/Trade_Orbs.lua"/>
+		<event type="death" name="Stamina" event="script" value="Custom_Creaturescripts/Stamina.lua"/>
+
+	<!-- Rewards -->
+		<event type="login" name="First_Items" event="script" value="Rewards/First_Items.lua"/>
+		
+	<!-- Channel -->
+		<event type="death" name="PvP_Channel" event="script" value="Channel/Player_vs_Player.lua"/>
+		
+	<!-- VIP -->
+	<!--<event type="login" name="Vip_Exp" script="Vip/Vip_Exp.lua"/>
+		<event type="login" name="End_Vip" event="script" value="Vip/End_Vip.lua"/>
+	-->	
+	<!-- Events -->
+		<!-- WoE -->
+			<event type="death" name="Empe_Broken" event="script" value="Events/WoE/Empe_Broken.lua"/>
+			<event type="death" name="Pre_Empes" event="script" value="Events/WoE/Pre_Empes.lua"/>
+			<event type="statschange" name="Empe_Dmg" event="script" value="Events/WoE/Empe_Dmg.lua"/>
+			<event type="login" name="reg_vs_guard" event="script" value="Events/WoE/vs_guard.lua"/>
+			<event type="statschange" name="vs_guard" event="script" value="Events/WoE/vs_guard.lua"/>
+			
+		<!-- Battlefield -->
+			<event type="login" name="BattleLogin" event="script" value="Events/Battlefield/Battlefield.lua"/>
+			<event type="PrepareDeath" name="BattleDeath" event="script" value="Events/Battlefield/Battlefield.lua"/>
+			<event type="combat" name="BattleTeam" event="script" value="Events/Battlefield/Battlefield.lua"/>
+			
+			<!--<event value="MaxFly.lua" event="script" name="FlyMove" type="throw"/>
+			<event value="MaxFly.lua" event="script" name="FlyLogout" type="logout"/>
+			<event value="MaxFly.lua" event="script" name="FlyAttack" type="attack"/>-->
+</creaturescripts>
